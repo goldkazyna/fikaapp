@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIKA</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">FIKA</div>
+            <p class="greeting">Привет, <span id="username">гость</span>!</p>
+            <p class="greeting">Стол: <span id="table-num">—</span></p>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn" id="btn-menu">
+                <span class="btn-icon">🍽</span>
+                <span>Меню</span>
+            </button>
+            
+            <button class="btn" id="btn-takeaway">
+                <span class="btn-icon">📦</span>
+                <span>С собой</span>
+            </button>
+            
+            <button class="btn btn-pay" id="btn-pay">
+                <span class="btn-icon">💳</span>
+                <span>Оплатить</span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <span class="modal-title">Ваш счёт</span>
+            <button class="modal-close" id="modal-close">×</button>
+        </div>
+        <div id="order-content">
+            <div class="loading">Загрузка...</div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
