@@ -84,7 +84,7 @@ async function loadOrder() {
 async function payOrder() {
     const btn = document.getElementById('btn-pay-now');
     btn.disabled = true;
-    btn.textContent = 'Оплата...';
+    btn.textContent = 'Создание платежа...';
     
     try {
         const response = await fetch('/api/pay/' + tableNum, {
@@ -97,15 +97,10 @@ async function payOrder() {
             return;
         }
         
-        orderContent.innerHTML = '<div class="success">✅ Оплачено!</div>';
-        
-        // Закрываем через 2 секунды
-        setTimeout(() => {
-            modal.classList.remove('active');
-            tg.showAlert('Спасибо! Заказ оплачен.');
-        }, 2000);
+        // Редирект на страницу оплаты Plexy
+        window.location.href = data.payment_url;
         
     } catch (err) {
-        orderContent.innerHTML = '<div class="error">Ошибка оплаты</div>';
+        orderContent.innerHTML = '<div class="error">Ошибка создания платежа</div>';
     }
 }

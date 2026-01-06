@@ -1,6 +1,8 @@
 from fastapi import APIRouter
 from iiko.api import get_token, init_table, get_order_by_table, add_payment, close_order
 from iiko.tables import get_table_id
+from database.models import create_payment, get_payment, update_payment_status
+from payments.plexy import create_payment_link
 
 router = APIRouter(prefix="/api")
 
@@ -23,7 +25,6 @@ async def get_order(table_num: str):
     order = orders[0]
     order_data = order["order"]
     
-    # Формируем ответ
     items = []
     for item in order_data["items"]:
         if item["resultSum"] > 0:
@@ -42,7 +43,7 @@ async def get_order(table_num: str):
 
 @router.post("/pay/{table_num}")
 async def pay_order(table_num: str):
-    """Оплатить и закрыть заказ"""
+    """Создать ссылку на оплату"""
     table_id = get_table_id(table_num)
     if not table_id:
         return {"error": "Стол не найден"}
@@ -59,8 +60,30 @@ async def pay_order(table_num: str):
     order_id = order["id"]
     order_sum = order["order"]["sum"]
     
-    # Добавляем оплату и закрываем
-    add_payment(token, order_id, order_sum)
-    close_order(token, order_id)
+    print(f"💰 Создаём платёж: стол {table_num}, сумма {order_sum}")
     
-    return {"success": True, "message": "Заказ оплачен!"}
+    # Создаём ссылку на оплату
+    result = create_payment_link(
+        amount=order_sum,
+        table_num=table_num,
+        order_id=order_id,
+        description=f"Оплата заказа - Стол {table_num}"
+    )
+    
+    print(f"📤 Результат Plexy: {result}")
+    
+    if not result["success"]:
+        return {"error": "Ошибка создания платежа"}
+    
+    # Сохраняем в базу
+    create_payment(
+        payment_id=result["payment_id"],
+        table_num=table_num,
+        order_id=order_id,
+        amount=int(order_sum)
+    )
+    
+    return {
+        "success": True,
+        "payment_url": result["url"]
+    }
