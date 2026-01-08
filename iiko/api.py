@@ -23,7 +23,6 @@ def init_table(token, table_id):
             "tableIds": [table_id]
         }
     )
-    time.sleep(2)
 
 
 def get_order_by_table(token, table_id):
@@ -38,6 +37,26 @@ def get_order_by_table(token, table_id):
         }
     )
     return response.json().get("orders", [])
+
+
+def get_order_by_table_with_retry(token, table_id, max_attempts=5, delay=2):
+    """Получить заказ с повторными попытками"""
+    for attempt in range(max_attempts):
+        # Инициализируем стол
+        init_table(token, table_id)
+        
+        # Ждём синхронизацию
+        time.sleep(delay)
+        
+        # Пробуем получить заказ
+        orders = get_order_by_table(token, table_id)
+        
+        if orders:
+            return orders
+        
+        print(f"⏳ Попытка {attempt + 1}/{max_attempts} — заказ не найден, повторяем...")
+    
+    return []
 
 
 def add_payment(token, order_id, amount):
