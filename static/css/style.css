@@ -4,66 +4,182 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-primary: #1c1c1d;
+    --bg-secondary: #2c2c2e;
+    --bg-tertiary: #3a3a3c;
+    --text-primary: #ffffff;
+    --text-secondary: #8e8e93;
+    --accent-blue: #3b82f6;
+    --accent-green: #30d158;
+    --accent-orange: #ff9f0a;
+    --border-color: #38383a;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #0a0a0a;
-    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
     min-height: 100vh;
-    padding: 20px;
+    line-height: 1.4;
 }
 
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.header {
-    text-align: center;
-    padding: 30px 0;
-}
-
-.logo {
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 4px;
-    margin-bottom: 8px;
-}
-
-.greeting {
-    color: #888;
-    font-size: 14px;
-}
-
-.buttons {
+/* Навигация */
+.navbar {
     display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 30px;
+    align-items: center;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-.btn {
-    background: #1a1a1a;
+.navbar-back {
+    background: none;
     border: none;
-    border-radius: 12px;
-    padding: 20px;
-    color: #fff;
-    font-size: 16px;
+    color: var(--accent-blue);
+    font-size: 17px;
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 4px;
+    padding: 0;
 }
 
-.btn:active {
-    background: #252525;
+.navbar-title {
+    flex: 1;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
 }
 
-.btn-icon {
-    font-size: 24px;
+.navbar-spacer {
+    width: 60px;
 }
 
-.btn-pay {
-    background: linear-gradient(135deg, #6366f1, #4f46e5);
+/* Контейнер */
+.container {
+    max-width: 100%;
+    padding: 0;
+}
+
+/* Хедер профиля */
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+    background: var(--bg-secondary);
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.profile-table {
+    font-size: 15px;
+    color: var(--text-secondary);
+}
+
+/* Секции */
+.section {
+    margin-top: 16px;
+}
+
+.section-header {
+    padding: 8px 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Меню */
+.menu-list {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item:active {
+    background: var(--bg-tertiary);
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.menu-icon.blue { background: var(--accent-blue); }
+.menu-icon.green { background: var(--accent-green); }
+.menu-icon.orange { background: var(--accent-orange); }
+.menu-icon.purple { background: #af52de; }
+
+.menu-content {
+    flex: 1;
+}
+
+.menu-title {
+    font-size: 17px;
+    color: var(--text-primary);
+}
+
+.menu-subtitle {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+.menu-arrow {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.menu-badge {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-right: 8px;
 }
 
 /* Модалка */
@@ -74,8 +190,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0a0a0a;
-    padding: 20px;
+    background: var(--bg-primary);
+    z-index: 200;
     overflow-y: auto;
 }
 
@@ -83,90 +199,193 @@ body {
     display: block;
 }
 
-.modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.modal-title {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.modal-close {
-    background: #1a1a1a;
-    border: none;
-    color: #fff;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
+/* Заказ */
 .order-item {
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
-    border-bottom: 1px solid #1a1a1a;
+    padding: 14px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .item-name {
     flex: 1;
-    margin-right: 10px;
+    font-size: 16px;
+    margin-right: 12px;
 }
 
 .item-price {
-    color: #6366f1;
-    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 16px;
 }
 
 .order-total {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
-    font-size: 20px;
-    font-weight: 700;
+    padding: 16px;
+    background: var(--bg-secondary);
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 1px solid var(--border-color);
 }
 
 .total-sum {
-    color: #22c55e;
+    color: var(--accent-green);
 }
 
-.btn-pay-now {
-    width: 100%;
-    background: linear-gradient(135deg, #22c55e, #16a34a);
+/* Кнопки */
+.btn-primary {
+    width: calc(100% - 32px);
+    margin: 16px;
+    padding: 14px;
+    background: var(--accent-blue);
     border: none;
     border-radius: 12px;
-    padding: 18px;
-    color: #fff;
-    font-size: 18px;
+    color: white;
+    font-size: 17px;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 20px;
 }
 
-.btn-pay-now:disabled {
-    background: #333;
+.btn-primary:active {
+    opacity: 0.8;
+}
+
+.btn-primary:disabled {
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
     cursor: not-allowed;
 }
 
-.loading {
+/* Статусы */
+.loading, .error, .success {
     text-align: center;
-    padding: 40px;
-    color: #888;
+    padding: 40px 16px;
+    font-size: 16px;
 }
 
-.error {
-    text-align: center;
-    padding: 40px;
-    color: #ef4444;
+.loading { color: var(--text-secondary); }
+.error { color: #ff453a; }
+.success { color: var(--accent-green); }
+
+/* Страницы */
+.page {
+    display: none;
+    min-height: 100vh;
 }
 
-.success {
-    text-align: center;
-    padding: 40px;
-    color: #22c55e;
+.page.active {
+    display: block;
+}
+
+/* Категории меню */
+.category {
+    margin-bottom: 8px;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.category-header:active {
+    background: var(--bg-tertiary);
+}
+
+.category-title {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--text-primary);
+    padding: 0;
+}
+
+.category-count {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-right: 8px;
+}
+
+.category-arrow {
+    font-size: 18px;
+    color: var(--text-secondary);
+    transition: transform 0.3s ease;
+}
+
+.category.open .category-arrow {
+    transform: rotate(90deg);
+}
+
+.category-items {
+    display: none;
+}
+
+.category.open .category-items {
+    display: block;
+}
+
+/* Карточки блюд */
+.dish-card {
+    display: flex;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    gap: 12px;
+}
+
+.dish-card:first-of-type {
+    border-top: 1px solid var(--border-color);
+}
+
+.dish-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    background: var(--bg-tertiary);
+    flex-shrink: 0;
+}
+
+.dish-image.no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 24px;
+}
+
+.dish-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dish-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.dish-description {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.dish-price {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent-green);
 }

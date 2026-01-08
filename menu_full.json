@@ -1,0 +1,1159 @@
+{
+  "productCategories": [
+    {
+      "id": "0fcb799e-bc19-dcb1-0193-6e05936aedce",
+      "name": "Мерч",
+      "isDeleted": false
+    },
+    {
+      "id": "32b590d8-1a8b-8ef9-018f-39285c477194",
+      "name": "Кухня Спешл",
+      "isDeleted": false
+    },
+    {
+      "id": "442f2c1e-4abc-bb61-0192-9bd5398e9cfd",
+      "name": "Книга Целинный",
+      "isDeleted": false
+    },
+    {
+      "id": "442f2c1e-4abc-bb61-0192-9bd5398e9cff",
+      "name": "Книга Комиксы",
+      "isDeleted": false
+    },
+    {
+      "id": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+      "name": "Кухня",
+      "isDeleted": false
+    },
+    {
+      "id": "4e37c31e-615b-cfd8-0190-05fa8c84cd63",
+      "name": "Бар",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2e998",
+      "name": "Бар Кофе/Чай",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2e9ad",
+      "name": "Бар Коктейли/Смузи/Фреши",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2e9cb",
+      "name": "Бар Лимонад/Напитки",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2f91f",
+      "name": "Бар Допы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2f932",
+      "name": "Бар Алкоголь",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2fa8f",
+      "name": "Кухня Допы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db421c",
+      "name": "Кухня Салаты",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db4225",
+      "name": "Кухня Закуски",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db4228",
+      "name": "Кухня Горячие",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db422a",
+      "name": "Кухня Супы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db422d",
+      "name": "Кухня Паста",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-3fac245e1ea7",
+      "name": "Кухня Модификаторы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-548568b7f85c",
+      "name": "Бар Пиво",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-7c89a6ab0e1f",
+      "name": "Зал Книги",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-a5c46dbf14fa",
+      "name": "Бар Модификаторы ",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-c7e42afef84c",
+      "name": "Кухня Завтрак Модификаторы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-e3d4d0ad8512",
+      "name": "Бар Винная карта",
+      "isDeleted": false
+    },
+    {
+      "id": "6750609c-707e-6c75-0191-515c85dbc6ed",
+      "name": "Упаковка",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698933",
+      "name": "Кухня Сладкие завтраки",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698a41",
+      "name": "Кухня Завтрак Конструктор",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698a80",
+      "name": "Кухня На нашем хлебе и выпечке",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698afa",
+      "name": "Кухня Завтраки",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698b59",
+      "name": "Кухня Хлеб/Выпечка",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698b5b",
+      "name": "Кухня Десерты",
+      "isDeleted": false
+    },
+    {
+      "id": "f64d5e53-db78-76b4-0198-898d192a7bb1",
+      "name": "Вагончик бар",
+      "isDeleted": false
+    },
+    {
+      "id": "b464b0e7-75a9-1a15-019a-f7b466f9a928",
+      "name": "Вагончик Пончики",
+      "isDeleted": false
+    },
+    {
+      "id": "b464b0e7-75a9-1a15-019b-47164645dcab",
+      "name": "Бар Стаф",
+      "isDeleted": false
+    }
+  ],
+  "customerTagGroups": [],
+  "revision": 1767876030,
+  "formatVersion": 2,
+  "id": 69654,
+  "name": "Приложение",
+  "description": "",
+  "buttonImageUrl": null,
+  "intervals": [],
+  "itemCategories": [
+    {
+      "id": "c783d8db-bb48-46e0-bae4-2c6ecc395b28",
+      "name": "Завтраки",
+      "description": "",
+      "buttonImageUrl": "https://16a9564f-f8ec-42ba-a998-3027aa809e50.selstorage.ru/fika-almaty/78763/images/items/7131f72b66b17cd08afd60c945d31cfe.JPEG",
+      "headerImageUrl": null,
+      "iikoGroupId": null,
+      "items": [
+        {
+          "sku": "02774",
+          "name": "STEAK & EGGS",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "02774",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 475.0,
+              "itemModifierGroups": [],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 0.0,
+                "proteins": 0.0,
+                "carbs": 0.0,
+                "energy": 0.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 5900.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 0.0,
+                  "proteins": 0.0,
+                  "carbs": 0.0,
+                  "energy": 0.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": null
+            }
+          ],
+          "itemId": "af2358fd-c54a-438f-bb6e-143c57ac6bfe",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        },
+        {
+          "sku": "00509",
+          "name": "ГОРА МАСЛА С КОПЧ.СОЛЬЮ И ХЛЕБОМ",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "00509",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 311.666667,
+              "itemModifierGroups": [
+                {
+                  "name": "По готовности",
+                  "description": "",
+                  "restrictions": {
+                    "minQuantity": 0,
+                    "maxQuantity": 1,
+                    "freeQuantity": 0,
+                    "byDefault": 0,
+                    "hideIfDefaultQuantity": false
+                  },
+                  "items": [
+                    {
+                      "sku": "01978",
+                      "name": "По готовности",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 0.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "16fae650-33bd-4dd9-a0f6-9985dafd4a2b",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 0.0
+                        }
+                      ],
+                      "position": 0,
+                      "independentQuantity": false,
+                      "productCategoryId": "5789ccdd-9ead-cb90-018d-a5c46dbf14fa",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    }
+                  ],
+                  "canBeDivided": false,
+                  "itemGroupId": "eba178df-0fbc-4569-8e7a-54a1b7b8ddc9",
+                  "isHidden": false,
+                  "childModifiersHaveMinMaxRestrictions": false,
+                  "sku": "0130"
+                }
+              ],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 0.0,
+                "proteins": 0.0,
+                "carbs": 0.0,
+                "energy": 0.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 2500.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 0.0,
+                  "proteins": 0.0,
+                  "carbs": 0.0,
+                  "energy": 0.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": null
+            }
+          ],
+          "itemId": "97ee70e9-6a24-47ac-90db-0b01b5049bdc",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        },
+        {
+          "sku": "01577",
+          "name": "ДРАНИКИ ИЗ ЦУККИНИ С ТУНЦОМ",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "01577",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 387.0,
+              "itemModifierGroups": [
+                {
+                  "name": "По готовности",
+                  "description": "",
+                  "restrictions": {
+                    "minQuantity": 0,
+                    "maxQuantity": 1,
+                    "freeQuantity": 0,
+                    "byDefault": 0,
+                    "hideIfDefaultQuantity": false
+                  },
+                  "items": [
+                    {
+                      "sku": "01978",
+                      "name": "По готовности",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 0.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "16fae650-33bd-4dd9-a0f6-9985dafd4a2b",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 0.0
+                        }
+                      ],
+                      "position": 0,
+                      "independentQuantity": false,
+                      "productCategoryId": "5789ccdd-9ead-cb90-018d-a5c46dbf14fa",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    }
+                  ],
+                  "canBeDivided": false,
+                  "itemGroupId": "eba178df-0fbc-4569-8e7a-54a1b7b8ddc9",
+                  "isHidden": false,
+                  "childModifiersHaveMinMaxRestrictions": false,
+                  "sku": "0130"
+                }
+              ],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 0.0,
+                "proteins": 0.0,
+                "carbs": 0.0,
+                "energy": 0.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 5200.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 0.0,
+                  "proteins": 0.0,
+                  "carbs": 0.0,
+                  "energy": 0.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": null
+            }
+          ],
+          "itemId": "b13db41b-0871-4ce1-8b5c-c1a1ef800c7f",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        },
+        {
+          "sku": "02055",
+          "name": "ЗАВТРАК С ХУМУСОМ",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "02055",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 371.4,
+              "itemModifierGroups": [
+                {
+                  "name": "К завтраку с хумусом",
+                  "description": "",
+                  "restrictions": {
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "freeQuantity": 0,
+                    "byDefault": 0,
+                    "hideIfDefaultQuantity": false
+                  },
+                  "items": [
+                    {
+                      "sku": "02058",
+                      "name": "-фалафель",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 150.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "57b36232-6d72-42f8-86b5-40e12526bdba",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 4400.0
+                        }
+                      ],
+                      "position": 0,
+                      "independentQuantity": false,
+                      "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    },
+                    {
+                      "sku": "02059",
+                      "name": "-колбаски гов.",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 124.5,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "3ddc93f7-4345-496b-a0c4-525d73e2f9d4",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 4900.0
+                        }
+                      ],
+                      "position": 1,
+                      "independentQuantity": false,
+                      "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    }
+                  ],
+                  "canBeDivided": false,
+                  "itemGroupId": "77a29610-29d9-405d-b972-35ab7877261c",
+                  "isHidden": false,
+                  "childModifiersHaveMinMaxRestrictions": false,
+                  "sku": "0133"
+                }
+              ],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 0.0,
+                "proteins": 0.0,
+                "carbs": 0.0,
+                "energy": 0.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 0.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 0.0,
+                  "proteins": 0.0,
+                  "carbs": 0.0,
+                  "energy": 0.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": null
+            }
+          ],
+          "itemId": "d6732327-b337-4339-9260-cd93e7f4441b",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        },
+        {
+          "sku": "02052",
+          "name": "ЗАВТРАК ФИКА NEW",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "02052",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 460.0,
+              "itemModifierGroups": [],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 0.0,
+                "proteins": 0.0,
+                "carbs": 0.0,
+                "energy": 0.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 4500.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 0.0,
+                  "proteins": 0.0,
+                  "carbs": 0.0,
+                  "energy": 0.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": null
+            }
+          ],
+          "itemId": "b82d9522-b6f3-41b5-b56a-a2c55d28ecc5",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        },
+        {
+          "sku": "00861",
+          "name": "ЗДОРОВЫЙ ЗАВТРАК",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "00861",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 374.0,
+              "itemModifierGroups": [
+                {
+                  "name": "Здоровый Завтрак",
+                  "description": "",
+                  "restrictions": {
+                    "minQuantity": 1,
+                    "maxQuantity": 99,
+                    "freeQuantity": 0,
+                    "byDefault": 0,
+                    "hideIfDefaultQuantity": false
+                  },
+                  "items": [
+                    {
+                      "sku": "01218",
+                      "name": "-лосось с/с",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 50.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "7b30dca7-950f-4ad5-885e-a51301545acb",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 0.0
+                        }
+                      ],
+                      "position": 0,
+                      "independentQuantity": false,
+                      "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    },
+                    {
+                      "sku": "01219",
+                      "name": "-гравлакс",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 50.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "95bb18ec-b72a-4c3d-bacf-6126f9645dbc",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 0.0
+                        }
+                      ],
+                      "position": 1,
+                      "independentQuantity": false,
+                      "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    }
+                  ],
+                  "canBeDivided": false,
+                  "itemGroupId": "74ec2a4a-5deb-4032-a8ef-4f9d52f63e1d",
+                  "isHidden": false,
+                  "childModifiersHaveMinMaxRestrictions": false,
+                  "sku": "0102"
+                },
+                {
+                  "name": "По готовности",
+                  "description": "",
+                  "restrictions": {
+                    "minQuantity": 0,
+                    "maxQuantity": 1,
+                    "freeQuantity": 0,
+                    "byDefault": 0,
+                    "hideIfDefaultQuantity": false
+                  },
+                  "items": [
+                    {
+                      "sku": "01978",
+                      "name": "По готовности",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 0.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "16fae650-33bd-4dd9-a0f6-9985dafd4a2b",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 0.0
+                        }
+                      ],
+                      "position": 0,
+                      "independentQuantity": false,
+                      "productCategoryId": "5789ccdd-9ead-cb90-018d-a5c46dbf14fa",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    }
+                  ],
+                  "canBeDivided": false,
+                  "itemGroupId": "eba178df-0fbc-4569-8e7a-54a1b7b8ddc9",
+                  "isHidden": false,
+                  "childModifiersHaveMinMaxRestrictions": false,
+                  "sku": "0130"
+                }
+              ],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 0.0,
+                "proteins": 0.0,
+                "carbs": 0.0,
+                "energy": 0.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 4900.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 0.0,
+                  "proteins": 0.0,
+                  "carbs": 0.0,
+                  "energy": 0.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": null
+            }
+          ],
+          "itemId": "df6a6f16-5f42-4862-8d8a-333955799de4",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        },
+        {
+          "sku": "00385",
+          "name": "АНГЛИЙСКИЙ ЗАВТРАК",
+          "description": "",
+          "allergens": [],
+          "tags": [],
+          "labels": [],
+          "itemSizes": [
+            {
+              "sku": "00385",
+              "sizeCode": null,
+              "sizeName": "",
+              "isDefault": true,
+              "portionWeightGrams": 520.0,
+              "itemModifierGroups": [
+                {
+                  "name": "По готовности",
+                  "description": "",
+                  "restrictions": {
+                    "minQuantity": 0,
+                    "maxQuantity": 1,
+                    "freeQuantity": 0,
+                    "byDefault": 0,
+                    "hideIfDefaultQuantity": false
+                  },
+                  "items": [
+                    {
+                      "sku": "01978",
+                      "name": "По готовности",
+                      "description": "",
+                      "restrictions": {
+                        "minQuantity": 0,
+                        "maxQuantity": 0,
+                        "freeQuantity": 0,
+                        "byDefault": 0,
+                        "hideIfDefaultQuantity": false
+                      },
+                      "allergenGroups": [],
+                      "nutritionPerHundredGrams": {
+                        "fats": 0.0,
+                        "proteins": 0.0,
+                        "carbs": 0.0,
+                        "energy": 0.0,
+                        "organizations": [],
+                        "saturatedFattyAcid": null,
+                        "salt": null,
+                        "sugar": null
+                      },
+                      "portionWeightGrams": 0.0,
+                      "tags": [],
+                      "labels": [],
+                      "itemId": "16fae650-33bd-4dd9-a0f6-9985dafd4a2b",
+                      "isHidden": false,
+                      "prices": [
+                        {
+                          "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                          "price": 0.0
+                        }
+                      ],
+                      "position": 0,
+                      "independentQuantity": false,
+                      "productCategoryId": "5789ccdd-9ead-cb90-018d-a5c46dbf14fa",
+                      "customerTagGroups": [],
+                      "paymentSubject": null,
+                      "outerEanCode": null,
+                      "isMarked": false,
+                      "measureUnitType": "GRAM",
+                      "paymentSubjectCode": "1",
+                      "barcodes": null,
+                      "buttonImageUrl": null
+                    }
+                  ],
+                  "canBeDivided": false,
+                  "itemGroupId": "eba178df-0fbc-4569-8e7a-54a1b7b8ddc9",
+                  "isHidden": false,
+                  "childModifiersHaveMinMaxRestrictions": false,
+                  "sku": "0130"
+                }
+              ],
+              "sizeId": null,
+              "nutritionPerHundredGrams": {
+                "fats": 10.0,
+                "proteins": 10.0,
+                "carbs": 10.0,
+                "energy": 200.0,
+                "organizations": [],
+                "saturatedFattyAcid": null,
+                "salt": null,
+                "sugar": null
+              },
+              "prices": [
+                {
+                  "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+                  "price": 5200.0
+                }
+              ],
+              "nutritions": [
+                {
+                  "fats": 10.0,
+                  "proteins": 10.0,
+                  "carbs": 10.0,
+                  "energy": 200.0,
+                  "organizations": [
+                    "fe680633-a3d5-4e1a-a376-3b11969dad92"
+                  ],
+                  "saturatedFattyAcid": null,
+                  "salt": null,
+                  "sugar": null
+                }
+              ],
+              "isHidden": false,
+              "measureUnitType": "GRAM",
+              "buttonImageUrl": "https://16a9564f-f8ec-42ba-a998-3027aa809e50.selstorage.ru/fika-almaty/78763/images/items/7131f72b66b17cd08afd60c945d31cfe.JPEG"
+            }
+          ],
+          "itemId": "abab4f4d-43ae-4c95-be27-2804104c7a9a",
+          "modifierSchemaId": null,
+          "taxCategory": null,
+          "modifierSchemaName": "",
+          "type": "DISH",
+          "canBeDivided": false,
+          "canSetOpenPrice": false,
+          "useBalanceForSell": false,
+          "measureUnit": "порц",
+          "productCategoryId": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+          "customerTagGroups": [],
+          "paymentSubject": "COMMODITY",
+          "paymentSubjectCode": "1",
+          "outerEanCode": null,
+          "isMarked": false,
+          "isHidden": false,
+          "barcodes": null,
+          "orderItemType": "Product"
+        }
+      ],
+      "scheduleId": null,
+      "scheduleName": null,
+      "schedules": [],
+      "isHidden": false,
+      "tags": [],
+      "labels": []
+    }
+  ],
+  "comboCategories": []
+}

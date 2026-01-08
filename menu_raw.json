@@ -1,0 +1,184 @@
+{
+  "correlationId": "09f7458f-6fcf-444d-9eb3-9c19781891f7",
+  "groups": [],
+  "productCategories": [
+    {
+      "id": "4e37c31e-615b-cfd8-0190-05fa8c84cbe7",
+      "name": "Кухня",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2f932",
+      "name": "Бар Алкоголь",
+      "isDeleted": false
+    },
+    {
+      "id": "4e37c31e-615b-cfd8-0190-05fa8c84cd63",
+      "name": "Бар",
+      "isDeleted": false
+    },
+    {
+      "id": "b464b0e7-75a9-1a15-019b-47164645dcab",
+      "name": "Бар Стаф",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db422a",
+      "name": "Кухня Супы",
+      "isDeleted": false
+    },
+    {
+      "id": "442f2c1e-4abc-bb61-0192-9bd5398e9cfd",
+      "name": "Книга Целинный",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db422d",
+      "name": "Кухня Паста",
+      "isDeleted": false
+    },
+    {
+      "id": "32b590d8-1a8b-8ef9-018f-39285c477194",
+      "name": "Кухня Спешл",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2e998",
+      "name": "Бар Кофе/Чай",
+      "isDeleted": false
+    },
+    {
+      "id": "b464b0e7-75a9-1a15-019a-f7b466f9a928",
+      "name": "Вагончик Пончики",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db421c",
+      "name": "Кухня Салаты",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db4228",
+      "name": "Кухня Горячие",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-3fac245e1ea7",
+      "name": "Кухня Модификаторы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-548568b7f85c",
+      "name": "Бар Пиво",
+      "isDeleted": false
+    },
+    {
+      "id": "0fcb799e-bc19-dcb1-0193-6e05936aedce",
+      "name": "Мерч",
+      "isDeleted": false
+    },
+    {
+      "id": "0fcb799e-bc19-dcb1-0193-91b02917baa6",
+      "name": "выпечка/хлеб п/ф",
+      "isDeleted": true
+    },
+    {
+      "id": "0fcb799e-bc19-dcb1-0193-91b02917baa8",
+      "name": "кондитерка п/ф",
+      "isDeleted": true
+    },
+    {
+      "id": "442f2c1e-4abc-bb61-0192-9bd5398e9cff",
+      "name": "Книга Комиксы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2e9ad",
+      "name": "Бар Коктейли/Смузи/Фреши",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2e9cb",
+      "name": "Бар Лимонад/Напитки",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2f91f",
+      "name": "Бар Допы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-2a3c91d2fa8f",
+      "name": "Кухня Допы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-371284db4225",
+      "name": "Кухня Закуски",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-a5c46dbf14fa",
+      "name": "Бар Модификаторы ",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-c7e42afef84c",
+      "name": "Кухня Завтрак Модификаторы",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-e3d4d0ad8512",
+      "name": "Бар Винная карта",
+      "isDeleted": false
+    },
+    {
+      "id": "6750609c-707e-6c75-0191-515c85dbc6ed",
+      "name": "Упаковка",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698b59",
+      "name": "Кухня Хлеб/Выпечка",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698b5b",
+      "name": "Кухня Десерты",
+      "isDeleted": false
+    },
+    {
+      "id": "f64d5e53-db78-76b4-0198-898d192a7bb1",
+      "name": "Вагончик бар",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698a41",
+      "name": "Кухня Завтрак Конструктор",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698afa",
+      "name": "Кухня Завтраки",
+      "isDeleted": false
+    },
+    {
+      "id": "5789ccdd-9ead-cb90-018d-7c89a6ab0e1f",
+      "name": "Зал Книги",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698933",
+      "name": "Кухня Сладкие завтраки",
+      "isDeleted": false
+    },
+    {
+      "id": "d73ccad1-40f6-cb6f-018c-e0c2cf698a80",
+      "name": "Кухня На нашем хлебе и выпечке",
+      "isDeleted": false
+    }
+  ],
+  "products": [],
+  "sizes": [],
+  "revision": 1703140622395
+}

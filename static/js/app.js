@@ -2,105 +2,64 @@ const tg = window.Telegram.WebApp;
 tg.ready();
 tg.expand();
 
-// Получаем номер стола из параметра
+// Настройки Telegram WebApp
+tg.setHeaderColor('#1c1c1d');
+tg.setBackgroundColor('#1c1c1d');
+
+// Получаем номер стола
+let tableNum = '65';
+
 const urlParams = new URLSearchParams(window.location.search);
-const tableNum = urlParams.get('table') || '65';
+if (urlParams.get('table')) {
+    tableNum = urlParams.get('table');
+}
+
+const startParam = tg.initDataUnsafe?.start_param;
+if (startParam && startParam.startsWith('table_')) {
+    tableNum = startParam.replace('table_', '');
+}
 
 // Заполняем данные
 document.getElementById('username').textContent = 
     tg.initDataUnsafe?.user?.first_name || 'гость';
 document.getElementById('table-num').textContent = tableNum;
 
-const modal = document.getElementById('modal');
-const orderContent = document.getElementById('order-content');
-
-let currentOrderTotal = 0;
-
-// Кнопка Меню
-document.getElementById('btn-menu').onclick = function() {
-    tg.showAlert('Меню — скоро будет!');
+// Навигация
+const pages = {
+    main: document.getElementById('main-page'),
+    menu: document.getElementById('menu-page'),
+    order: document.getElementById('order-page')
 };
 
-// Кнопка С собой
+function showPage(pageName) {
+    Object.values(pages).forEach(page => page.classList.remove('active'));
+    pages[pageName].classList.add('active');
+}
+
+// Кнопки главной страницы
+document.getElementById('btn-menu').onclick = async function() {
+    showPage('menu');
+    await loadMenu();
+};
+
 document.getElementById('btn-takeaway').onclick = function() {
     tg.showAlert('С собой — скоро будет!');
 };
 
-// Кнопка Оплатить - открывает модалку
+document.getElementById('btn-bonus').onclick = function() {
+    tg.showAlert('Бонусная программа — скоро будет!');
+};
+
 document.getElementById('btn-pay').onclick = async function() {
-    modal.classList.add('active');
+    showPage('order');
     await loadOrder();
 };
 
-// Закрыть модалку
-document.getElementById('modal-close').onclick = function() {
-    modal.classList.remove('active');
+// Кнопки назад
+document.getElementById('menu-back').onclick = function() {
+    showPage('main');
 };
 
-// Загрузка заказа
-async function loadOrder() {
-    orderContent.innerHTML = '<div class="loading">Загрузка заказа...</div>';
-    
-    try {
-        const response = await fetch('/api/order/' + tableNum);
-        const data = await response.json();
-        
-        if (data.error) {
-            orderContent.innerHTML = '<div class="error">' + data.error + '</div>';
-            return;
-        }
-        
-        currentOrderTotal = data.total;
-        
-        let html = '';
-        data.items.forEach(item => {
-            html += `
-                <div class="order-item">
-                    <span class="item-name">${item.name}</span>
-                    <span class="item-price">${item.price} ₸</span>
-                </div>
-            `;
-        });
-        
-        html += `
-            <div class="order-total">
-                <span>Итого:</span>
-                <span class="total-sum">${data.total} ₸</span>
-            </div>
-            <button class="btn-pay-now" id="btn-pay-now">Оплатить ${data.total} ₸</button>
-        `;
-        
-        orderContent.innerHTML = html;
-        
-        // Привязываем обработчик к кнопке оплаты
-        document.getElementById('btn-pay-now').onclick = payOrder;
-        
-    } catch (err) {
-        orderContent.innerHTML = '<div class="error">Ошибка загрузки</div>';
-    }
-}
-
-// Оплата заказа
-async function payOrder() {
-    const btn = document.getElementById('btn-pay-now');
-    btn.disabled = true;
-    btn.textContent = 'Создание платежа...';
-    
-    try {
-        const response = await fetch('/api/pay/' + tableNum, {
-            method: 'POST'
-        });
-        const data = await response.json();
-        
-        if (data.error) {
-            orderContent.innerHTML = '<div class="error">' + data.error + '</div>';
-            return;
-        }
-        
-        // Редирект на страницу оплаты Plexy
-        window.location.href = data.payment_url;
-        
-    } catch (err) {
-        orderContent.innerHTML = '<div class="error">Ошибка создания платежа</div>';
-    }
-}
+document.getElementById('order-back').onclick = function() {
+    showPage('main');
+};

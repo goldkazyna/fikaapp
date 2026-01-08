@@ -2,47 +2,128 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FIKA</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">FIKA</div>
-            <p class="greeting">Привет, <span id="username">гость</span>!</p>
-            <p class="greeting">Стол: <span id="table-num">—</span></p>
+    <!-- Главная страница -->
+    <div class="page active" id="main-page">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/>
+                </svg>
+            </div>
+            <div class="profile-name">FIKA</div>
+            <div class="profile-table">Стол <span id="table-num">—</span></div>
         </div>
         
-        <div class="buttons">
-            <button class="btn" id="btn-menu">
-                <span class="btn-icon">🍽</span>
-                <span>Меню</span>
-            </button>
-            
-            <button class="btn" id="btn-takeaway">
-                <span class="btn-icon">📦</span>
-                <span>С собой</span>
-            </button>
-            
-            <button class="btn btn-pay" id="btn-pay">
-                <span class="btn-icon">💳</span>
-                <span>Оплатить</span>
-            </button>
+        <div class="section">
+            <div class="section-header">Привет, <span id="username">гость</span></div>
+            <div class="menu-list">
+                <button class="menu-item" id="btn-menu">
+                    <div class="menu-icon blue">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        </svg>
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title">Меню</div>
+                        <div class="menu-subtitle">Посмотреть блюда и напитки</div>
+                    </div>
+                    <span class="menu-arrow">›</span>
+                </button>
+                
+                <button class="menu-item" id="btn-takeaway">
+                    <div class="menu-icon orange">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title">С собой</div>
+                        <div class="menu-subtitle">Заказать навынос</div>
+                    </div>
+                    <span class="menu-arrow">›</span>
+                </button>
+                
+                <button class="menu-item" id="btn-pay">
+                    <div class="menu-icon green">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                            <line x1="1" y1="10" x2="23" y2="10"/>
+                        </svg>
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title">Оплатить</div>
+                        <div class="menu-subtitle">Оплатить текущий заказ</div>
+                    </div>
+                    <span class="menu-arrow">›</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-header">Бонусная программа</div>
+            <div class="menu-list">
+                <button class="menu-item" id="btn-bonus">
+                    <div class="menu-icon purple">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title">Бонусы</div>
+                        <div class="menu-subtitle">Накапливайте и тратьте баллы</div>
+                    </div>
+                    <span class="menu-badge">0</span>
+                    <span class="menu-arrow">›</span>
+                </button>
+            </div>
         </div>
     </div>
     
-    <div class="modal" id="modal">
-        <div class="modal-header">
-            <span class="modal-title">Ваш счёт</span>
-            <button class="modal-close" id="modal-close">×</button>
+    <!-- Страница меню -->
+    <div class="page" id="menu-page">
+        <div class="navbar">
+            <button class="navbar-back" id="menu-back">
+                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10 18L2 10L10 2"/>
+                </svg>
+                Назад
+            </button>
+            <div class="navbar-title">Меню</div>
+            <div class="navbar-spacer"></div>
+        </div>
+        <div id="menu-content">
+            <div class="loading">Загрузка меню...</div>
+        </div>
+    </div>
+    
+    <!-- Модалка с заказом -->
+    <div class="page" id="order-page">
+        <div class="navbar">
+            <button class="navbar-back" id="order-back">
+                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10 18L2 10L10 2"/>
+                </svg>
+                Назад
+            </button>
+            <div class="navbar-title">Ваш счёт</div>
+            <div class="navbar-spacer"></div>
         </div>
         <div id="order-content">
             <div class="loading">Загрузка...</div>
         </div>
     </div>
 
+    <script src="/static/js/menu.js"></script>
+    <script src="/static/js/order.js"></script>
     <script src="/static/js/app.js"></script>
 </body>
 </html>
