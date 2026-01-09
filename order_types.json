@@ -1,0 +1,34 @@
+{
+  "correlationId": "d9590a8d-ead3-4108-95f5-681fa3163fed",
+  "orderTypes": [
+    {
+      "organizationId": "fe680633-a3d5-4e1a-a376-3b11969dad92",
+      "items": [
+        {
+          "id": "5b1508f9-fe5b-d6af-cb8d-043af587d5c2",
+          "name": "Доставка самовывоз",
+          "orderServiceType": "DeliveryPickUp",
+          "isDeleted": false,
+          "externalRevision": 0,
+          "isDefault": true
+        },
+        {
+          "id": "76067ea3-356f-eb93-9d14-1fa00d082c4e",
+          "name": "Доставка курьером",
+          "orderServiceType": "DeliveryByCourier",
+          "isDeleted": false,
+          "externalRevision": 0,
+          "isDefault": true
+        },
+        {
+          "id": "bbbef4dc-5a02-7ea3-81d3-826f4e8bb3e0",
+          "name": "Обычный заказ",
+          "orderServiceType": "Common",
+          "isDeleted": false,
+          "externalRevision": 0,
+          "isDefault": false
+        }
+      ]
+    }
+  ]
+}

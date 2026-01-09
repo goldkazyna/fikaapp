@@ -28,7 +28,9 @@ document.getElementById('table-num').textContent = tableNum;
 const pages = {
     main: document.getElementById('main-page'),
     menu: document.getElementById('menu-page'),
-    order: document.getElementById('order-page')
+    order: document.getElementById('order-page'),
+    takeaway: document.getElementById('takeaway-page'),
+    cart: document.getElementById('cart-page')
 };
 
 function showPage(pageName) {
@@ -42,8 +44,9 @@ document.getElementById('btn-menu').onclick = async function() {
     await loadMenu();
 };
 
-document.getElementById('btn-takeaway').onclick = function() {
-    tg.showAlert('С собой — скоро будет!');
+document.getElementById('btn-takeaway').onclick = async function() {
+    showPage('takeaway');
+    await loadTakeawayMenu();
 };
 
 document.getElementById('btn-bonus').onclick = function() {
@@ -62,4 +65,18 @@ document.getElementById('menu-back').onclick = function() {
 
 document.getElementById('order-back').onclick = function() {
     showPage('main');
+};
+
+document.getElementById('takeaway-back').onclick = function() {
+    showPage('main');
+};
+
+document.getElementById('cart-back').onclick = function() {
+    showPage('takeaway');
+};
+
+// Кнопка корзины
+document.getElementById('btn-cart').onclick = function() {
+    showPage('cart');
+    renderCart();
 };
