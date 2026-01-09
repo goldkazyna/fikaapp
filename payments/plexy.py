@@ -8,9 +8,9 @@ BASE_URL = "https://api.plexypay.com/v1"
 # Продакшен
 NGROK_URL = "https://unpersecuted-supervictoriously-christene.ngrok-free.dev"
 PROD_URL = "https://fikaapp.kz"
-WEBHOOK_URL = f"{NGROK_URL}/api/webhook/plexy"
-SUCCESS_URL = f"{NGROK_URL}/success"
-FAIL_URL = f"{NGROK_URL}/fail"
+WEBHOOK_URL = f"{PROD_URL}/api/webhook/plexy"
+SUCCESS_URL = f"{PROD_URL}/success"
+FAIL_URL = f"{PROD_URL}/fail"
 
 
 def create_payment_link(amount: int, table_num: str, order_id: str, description: str):
