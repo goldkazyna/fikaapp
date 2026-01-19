@@ -1,0 +1,950 @@
+{
+  "correlationId": "8e5ff5f5-933e-4646-9e0d-510b3aae76cb",
+  "restaurantSections": [
+    {
+      "id": "22823c47-9fb9-4d37-a907-59b2dee28e9f",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "АУП",
+      "tables": [
+        {
+          "id": "8ff342e5-035d-442d-85ac-2792aa9835f6",
+          "number": 222,
+          "name": "Бегаим",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ef1dbce4-a277-4ea3-b054-c01d0da6c467"
+        },
+        {
+          "id": "474ebad2-2642-48d2-ada6-ac3b356ce9c4",
+          "number": 333,
+          "name": "Юлия",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "44139e18-8c5d-4256-bcd3-49ae4ee2009d"
+        },
+        {
+          "id": "92e7383d-8fed-48b1-8900-5408ab42a306",
+          "number": 444,
+          "name": "Никита",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f7204df4-3bd1-4258-8b0e-f898ab9d0636"
+        },
+        {
+          "id": "302ccf98-58d8-452f-a633-9abcf72f2cfc",
+          "number": 555,
+          "name": "Айсулу",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7ecfee80-e702-41ad-aa15-59d921567e35"
+        },
+        {
+          "id": "9fb5097c-9a52-4a82-8c71-b8d813e2cbdc",
+          "number": 666,
+          "name": "Александр",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "9798920f-ee9b-4e69-b6e5-9641f85f0ec5"
+        },
+        {
+          "id": "d5eaf738-42c1-4caf-a4b6-37a7ab58d651",
+          "number": 777,
+          "name": "Макар",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "32e36cdf-a2ec-4f73-a850-389be53b1c91"
+        },
+        {
+          "id": "755c4e2d-3459-4f1f-b5bf-f1335a7ed613",
+          "number": 888,
+          "name": "Угощения",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "b5f5fc4d-c2c5-45b6-bf56-3a3c012b22c1"
+        },
+        {
+          "id": "cb2043d6-8e22-41ce-9210-605cd2de0032",
+          "number": 999,
+          "name": "Менеджер",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "76c48f47-a83f-4754-8872-d46b8c858471"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "ded3886c-084b-4a1d-8d9f-a8046e9a1679",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Бар",
+      "tables": [],
+      "schema": null
+    },
+    {
+      "id": "21c3c946-f8bd-44d7-be59-852ab9e0eaf2",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Вынос",
+      "tables": [
+        {
+          "id": "9f75f2b6-eca0-4e97-aee2-106ff8338c56",
+          "number": 100,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "a0602a9c-26a9-411d-be8d-dafd9dd84601"
+        },
+        {
+          "id": "d9c055c4-dbb2-4e36-a3dc-58b03c931d81",
+          "number": 101,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "29a38b64-1df7-46e6-b770-d6e79d50bcea"
+        },
+        {
+          "id": "6278862f-6146-4a00-b940-afbd15d45afd",
+          "number": 102,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "a3bca3fe-1164-45c4-ae2d-be0ae229951e"
+        },
+        {
+          "id": "0ef1a7e0-4af2-454a-9ea3-dff898dc3694",
+          "number": 103,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "6f18999c-942d-4351-b7d9-1055300a682c"
+        },
+        {
+          "id": "d6d50e39-95a3-4bef-8fae-98368029cd49",
+          "number": 104,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "c6c0f15b-6648-4478-9779-e2afac695645"
+        },
+        {
+          "id": "c4eae473-f310-4368-98b5-589ff3c233e5",
+          "number": 105,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "0f764cbb-1bcb-436d-8f37-192fa059234d"
+        },
+        {
+          "id": "fe8d8dfa-fa8d-49fc-a49d-b60f0f064a3e",
+          "number": 106,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "fdaec95d-906e-4af5-9f7c-6b341e642259"
+        },
+        {
+          "id": "949bd3e1-2ab5-4ff7-ab7e-290c7c267919",
+          "number": 107,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "5d9eb85a-84b4-46f7-a185-e4b24e62cac4"
+        },
+        {
+          "id": "6b7b98ff-1d93-4a85-a475-63d5030387e7",
+          "number": 108,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "d5fb468d-9057-4dd1-989a-37e96a81d58c"
+        },
+        {
+          "id": "550322a6-3728-467f-b1f8-47778349ce0e",
+          "number": 109,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "0f8affa4-ab0e-4411-80d7-198dfc9b7b32"
+        },
+        {
+          "id": "d385583b-c6b4-4dd1-af50-31ea6573a235",
+          "number": 110,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f07882a9-8677-43fd-ba92-43b591387927"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "c387d15f-dd57-4ee1-be3e-970ba952ab29",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Вынос Бар",
+      "tables": [
+        {
+          "id": "f58f7c30-bafb-47d2-86b3-666e289ddeee",
+          "number": 90,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f9f4e270-4148-444b-b598-0cdd803e0071"
+        },
+        {
+          "id": "d0ea77a0-c031-4b41-8de8-85f421dce15c",
+          "number": 91,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "5e5a28ca-6ab5-4445-8c7c-3cd249af9115"
+        },
+        {
+          "id": "656dbd1d-963b-422b-ba71-d67bbec309f2",
+          "number": 92,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "88066f6e-7bbe-48b6-8fd0-7a7879c6d747"
+        },
+        {
+          "id": "1c49e98a-ee64-42e4-8aa5-9bbd7c2934f8",
+          "number": 93,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f9ccd228-b6b5-46c7-9879-ec88c99d094e"
+        },
+        {
+          "id": "cfc44df0-5990-4451-a647-32f0a3e92ab9",
+          "number": 94,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "be1720fc-6b42-4d5f-a6a2-554c9e288258"
+        },
+        {
+          "id": "61f59131-1ab0-492b-b43b-bc1ded9e1770",
+          "number": 95,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "e276fdc2-418e-4380-891b-fb70be32e976"
+        },
+        {
+          "id": "67d8c5bb-60a6-4d91-af6f-ee9e7e1785ed",
+          "number": 96,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f48bedf5-d105-4852-ba7e-83ae36c9a355"
+        },
+        {
+          "id": "d67bc38c-f164-4100-91bc-b5cced6647b8",
+          "number": 97,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "71c8c626-3725-494a-ab35-57184a940ff6"
+        },
+        {
+          "id": "ff48a017-987b-4d4d-adae-d7ab7b944161",
+          "number": 98,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ffdab762-f8bf-4a4b-9f31-dd895052de05"
+        },
+        {
+          "id": "2e13ca69-9582-40ae-a113-5c0f3f1410c8",
+          "number": 99,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "e789c0e2-1108-4c3f-aca4-906aea4368f0"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "ac45f5a4-8ac0-4644-9c0b-7ac601f96a52",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Доставка Ультима",
+      "tables": [
+        {
+          "id": "01f2c89e-1eb3-4313-a582-5c68caabe2a6",
+          "number": 70,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "d05ee1ec-1df1-4d9c-8ede-db8f6ba0949e"
+        },
+        {
+          "id": "cfe82f1b-f3d5-49e6-8a57-8aeb22b9c90e",
+          "number": 71,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "1906c81c-86dd-4a46-b1f9-cffd49507751"
+        },
+        {
+          "id": "a351ee87-846e-42f9-a5f5-ce5020dca812",
+          "number": 72,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "17f57a6a-0d8d-45ca-876d-c3b3a0cddb36"
+        },
+        {
+          "id": "bd5eb10f-6b68-46cb-a752-a1105949248b",
+          "number": 73,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "fa2ebc8e-bebf-4770-acd6-421d79df453a"
+        },
+        {
+          "id": "99df9247-8e2f-4cdb-b490-369bb7d55fdb",
+          "number": 74,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ac180050-4639-4cae-a61f-0650a084b315"
+        },
+        {
+          "id": "1f2e3b2c-4868-4d0f-aeb8-58b5d2dbfca0",
+          "number": 75,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "47991fd6-8161-4f65-8999-e730ef5ba65a"
+        },
+        {
+          "id": "06608ee7-a9f0-452d-a2eb-712c69f37a2a",
+          "number": 76,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "1ae9b799-0889-41cd-8c7a-f1cfb422e2c5"
+        },
+        {
+          "id": "de34c9b5-11f6-4032-b7b4-32bee8904c65",
+          "number": 77,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "77cf60f1-f745-4143-b2fe-a26a9a48e063"
+        },
+        {
+          "id": "bf787300-62d8-4742-a2cc-c6ea79114f56",
+          "number": 78,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "4c851283-e3c0-4ea0-84aa-09f2f16c40a1"
+        },
+        {
+          "id": "1b504e76-5cc1-4898-81fb-68634c021115",
+          "number": 79,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "768a119f-a8bc-401a-a012-2d9bff8e4418"
+        },
+        {
+          "id": "f7fe2acc-33f3-4657-9c2d-8ffce3717f86",
+          "number": 80,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f1f4ebee-22b8-4e9b-b6b0-4f20158630c1"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "7746457c-3ea8-462c-bf7b-d90e7a5ad332",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Зал",
+      "tables": [
+        {
+          "id": "7ac6af90-1e43-4583-b8ec-9c2b69508c86",
+          "number": 10,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "93902f74-76f1-4898-83a2-30e3e533b98e"
+        },
+        {
+          "id": "8d4fb7e4-8516-4c06-b6ba-6c79fab570a5",
+          "number": 11,
+          "name": "Стол 1",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070073"
+        },
+        {
+          "id": "9bf18174-2f96-4835-a6bb-292f78e413aa",
+          "number": 12,
+          "name": "Стол 2",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070074"
+        },
+        {
+          "id": "6edc65a4-224e-4b8e-96b6-9d2332bd7be4",
+          "number": 13,
+          "name": "Стол 3",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070075"
+        },
+        {
+          "id": "08f011bc-0975-4b5a-8f3a-9697a20f3215",
+          "number": 14,
+          "name": "Стол 4",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070076"
+        },
+        {
+          "id": "4b28aba8-3913-4e18-9911-6766a7b8b0d3",
+          "number": 15,
+          "name": "Стол 5",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070077"
+        },
+        {
+          "id": "d86084e6-6892-4488-a06b-72561f419290",
+          "number": 20,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ccdd556f-1f6b-46d3-b78c-a4976ec3ed4f"
+        },
+        {
+          "id": "8e5dd0bf-0fb3-40c3-8fa1-83a2cefe8728",
+          "number": 21,
+          "name": "Стол 6",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070078"
+        },
+        {
+          "id": "af15f432-a5e8-418d-a7c8-4f6652e38b79",
+          "number": 22,
+          "name": "Стол 7",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070079"
+        },
+        {
+          "id": "2b84debf-0376-45e5-9f58-7f2bd6147428",
+          "number": 23,
+          "name": "Стол 8",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de07007a"
+        },
+        {
+          "id": "38f3d98e-34ec-45fb-82d1-e5af9701324d",
+          "number": 24,
+          "name": "Стол 9",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de07007b"
+        },
+        {
+          "id": "006ab6d8-6748-4be9-8239-2975b57bffdc",
+          "number": 25,
+          "name": "Стол 10",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de07007c"
+        },
+        {
+          "id": "86b30aed-2d52-4faf-824b-4be9b305f194",
+          "number": 26,
+          "name": "Стол 11",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de07007d"
+        },
+        {
+          "id": "0c082f26-e20a-4ac6-a689-1100c4cfb07a",
+          "number": 50,
+          "name": "Стол 14",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070080"
+        },
+        {
+          "id": "912062da-c613-4a37-9426-715fb7fe4104",
+          "number": 51,
+          "name": "Стол 12",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de07007e"
+        },
+        {
+          "id": "c7906024-485b-4e16-8e01-f7c4ecbb0979",
+          "number": 52,
+          "name": "Стол 13",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de07007f"
+        },
+        {
+          "id": "cce60170-4ffa-49b4-8df4-118cce6097a4",
+          "number": 53,
+          "name": "Стол 15",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7641870b-66fb-01b4-018c-8af7de070081"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "052b82d4-8279-4ee5-bf9d-389b8f76f985",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Зал 2",
+      "tables": [
+        {
+          "id": "f4daf69c-0e66-45bb-b138-b7bf804dca44",
+          "number": 31,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7ed54146-44ea-49bb-83d5-df2770feb534"
+        },
+        {
+          "id": "ee2bc8a4-f5fb-45b9-82e3-3aba9d7f194b",
+          "number": 32,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f2e152c2-a451-44d4-ada4-92939770d4d0"
+        },
+        {
+          "id": "8597fa37-c682-48e9-964b-c9db7e2c814e",
+          "number": 33,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "6e231c4a-e628-4bda-9e2c-e96d5b32dfca"
+        },
+        {
+          "id": "0607016e-963c-4bfb-ad7f-13fad447e2ad",
+          "number": 34,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "036322f6-e343-45b1-a44e-01328185cb29"
+        },
+        {
+          "id": "01821262-3a0d-406d-8cbc-ac31c88437e3",
+          "number": 35,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "29fdc700-14cb-4c14-aac7-6611f483b944"
+        },
+        {
+          "id": "f0cc379a-c648-4b38-a92c-997f2ad49da8",
+          "number": 301,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "5dd4eebf-f6b7-4e64-a6f0-1312ad0adadd"
+        },
+        {
+          "id": "9c17d2b0-bac2-490d-ab12-8fa15096fa68",
+          "number": 302,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "27900992-b1ea-4172-8b67-36952b58ce3c"
+        },
+        {
+          "id": "f072b290-3912-4d20-bff2-5b23aa8b7485",
+          "number": 303,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "cee2d9eb-a0cc-48e4-8db1-797e45ab6282"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "b9f45787-f142-45fa-bd75-7368e41187ac",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "Летняя терраса",
+      "tables": [
+        {
+          "id": "abfbecc6-1ba2-4d80-9a5e-345404f43a78",
+          "number": 41,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "58d99f25-b433-4fba-8ff0-77269c0f38f5"
+        },
+        {
+          "id": "b5334550-e317-4272-874d-9acdbc4137b3",
+          "number": 42,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "01e2a0ed-73f9-41db-8f72-9108a321e643"
+        },
+        {
+          "id": "32b497d8-9efa-4041-99d6-de073252eabe",
+          "number": 43,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "471436e2-7f7a-4872-9aeb-917aee4bebbc"
+        },
+        {
+          "id": "c624d970-e4d0-46fb-ba8e-ccef2ac77485",
+          "number": 44,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "e06d9038-bf26-458e-b8da-27ab7d2df345"
+        },
+        {
+          "id": "740290f4-fd62-422c-b184-a364fb09160c",
+          "number": 45,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "d6be94f0-988a-415a-98aa-3fcf90996395"
+        },
+        {
+          "id": "7332c32b-f11a-468b-bb17-9402f23b84dd",
+          "number": 61,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "670fef05-4be2-45ec-a878-97190ab31475"
+        },
+        {
+          "id": "a7122e28-47fe-4e6a-b106-6c89b6e0433a",
+          "number": 62,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "b7668f09-dec6-450a-838d-1c4cde26fca3"
+        },
+        {
+          "id": "72261b9a-9be2-46b9-bf90-fd1516a77a4e",
+          "number": 63,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "7496f3b6-9f57-4cd8-b81f-2b81182b2b50"
+        },
+        {
+          "id": "e479a51f-5761-4a11-ad6c-90e483a61ab7",
+          "number": 64,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "3cf510ef-1bd8-4a0c-a3af-78aac2493b86"
+        },
+        {
+          "id": "b76f1f9d-55f4-4380-843c-821a1d09c41a",
+          "number": 65,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "568c862f-a4bc-4eeb-9cb5-b2d136e6701f"
+        },
+        {
+          "id": "0e144f66-df16-4dea-8736-c92b7c0f7ce4",
+          "number": 66,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "f4927c02-ab90-4bf2-9118-aca0fd245c6a"
+        },
+        {
+          "id": "e5e620be-a9dd-4458-981d-c7a571fd4708",
+          "number": 67,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "b7b5b8c9-0e16-44d4-bd89-bede02737174"
+        }
+      ],
+      "schema": null
+    },
+    {
+      "id": "a75e4c90-b021-4803-bc8a-2058bb617b04",
+      "terminalGroupId": "7641870b-66fb-01b4-018c-8af7de070064",
+      "name": "ТРАК",
+      "tables": [
+        {
+          "id": "eff00869-84c4-46d5-8433-8e6afb7c3b9f",
+          "number": 1,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "967c8412-fc9e-4fa3-8ace-4d332fe1b64e"
+        },
+        {
+          "id": "5a9e686a-a93d-48cd-8e4b-b59efc0e0a60",
+          "number": 2,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "498cd5ab-b9c6-44b2-93b0-606532435da1"
+        },
+        {
+          "id": "e0a0bcfc-d0cf-4410-9a3f-c2c66fe3c034",
+          "number": 3,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "39459df3-47e8-475d-92ef-872c44418bca"
+        },
+        {
+          "id": "9c5dc269-dfce-4536-b008-38f4ff494587",
+          "number": 4,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "5638251c-71f1-41db-ac4a-54a5b259a56d"
+        },
+        {
+          "id": "ad72b699-cde4-48c6-ba08-46359e283152",
+          "number": 5,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "4dff042c-cece-4139-958e-ae89dbaf8c14"
+        },
+        {
+          "id": "98e294b9-b12e-445b-acad-c8c2a63ce75a",
+          "number": 6,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "9b3f0eb5-224c-47ba-b2e4-56cb457151a6"
+        },
+        {
+          "id": "cd671303-148e-4dd8-8b8f-231ee54908de",
+          "number": 7,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "dd444bf3-d173-4ffe-acce-57acd21c5e6a"
+        },
+        {
+          "id": "be1c5090-381e-40ad-a3f2-6fb84378006c",
+          "number": 8,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "0691083e-26de-4806-a76b-5d8ea20cf581"
+        },
+        {
+          "id": "8ffd78bd-7c01-4eda-a1c4-8a0fde7a36e8",
+          "number": 9,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ba3bf733-980e-402a-a64b-a3dacdfb2340"
+        },
+        {
+          "id": "25060447-b44f-4d34-9863-8c73f621ac23",
+          "number": 10,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "15fc15fc-0182-4853-bbbd-c71e7508ef34"
+        },
+        {
+          "id": "998d9ea9-6b21-450f-83ba-1505666f1166",
+          "number": 11,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "985d6d87-42f8-46f4-ac60-8e2421d87f46"
+        },
+        {
+          "id": "bdc58df9-b699-41d7-a3c9-3b7c082dd3df",
+          "number": 12,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "9f4f98e7-7a5d-469a-b78f-0e3aca191eb5"
+        },
+        {
+          "id": "0aafd724-f3fc-4877-91ff-8f5f03ac6bc7",
+          "number": 13,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "46caaddc-4734-49ef-9c4c-d1e39cd402cf"
+        },
+        {
+          "id": "f5c9c44c-3b76-4147-946f-fb4e1729897a",
+          "number": 14,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ae98c50f-b993-4146-acd1-0adffefc17af"
+        },
+        {
+          "id": "0c75180f-0e65-4f7e-b44d-cd6eddbbf89f",
+          "number": 15,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "b6946ac0-dabd-4052-8b18-4d18fa2721ca"
+        },
+        {
+          "id": "e2ed8238-9ae3-4643-ac65-b5e880d75594",
+          "number": 16,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "d8ebd262-9ee9-414b-af87-7b4cc8c351e8"
+        },
+        {
+          "id": "40d96a9f-69af-48cd-8241-b84930a5335e",
+          "number": 17,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "91bf375b-1380-47a6-b19f-424914483e24"
+        },
+        {
+          "id": "7bbb03c5-3208-4d9f-b48c-cfae3a9fe6ab",
+          "number": 18,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "e3a363d1-d0e8-4773-89b2-dd2c8b5acf0f"
+        },
+        {
+          "id": "d582a78d-0c27-4937-9ccd-8c683c221248",
+          "number": 19,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "d944187e-8bd4-4315-bbeb-63c7cbfb4a9d"
+        },
+        {
+          "id": "5bf30fe2-288b-46b3-94c7-e2c619cbe3e6",
+          "number": 20,
+          "name": "",
+          "seatingCapacity": 0,
+          "revision": 1768050426857,
+          "isDeleted": false,
+          "posId": "ce04b1ce-78f5-4a2d-9966-45117334843e"
+        }
+      ],
+      "schema": null
+    }
+  ],
+  "revision": 1768050426857
+}
