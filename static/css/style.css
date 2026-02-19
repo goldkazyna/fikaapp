@@ -566,3 +566,90 @@ body {
 .btn-secondary:active {
     background: var(--bg-tertiary);
 }
+
+/* Футер главной страницы */
+.footer-info {
+    text-align: center;
+    padding: 20px 16px 32px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.footer-info a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+/* Страницы документов */
+.doc-content {
+    padding: 20px 16px 40px;
+}
+
+.doc-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.doc-content .doc-subtitle {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+.doc-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: var(--accent-blue);
+}
+
+.doc-content h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.doc-content p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.doc-content strong {
+    color: var(--text-primary);
+}
+
+.doc-content ul,
+.doc-content ol {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 8px 0 12px 20px;
+}
+
+.doc-content li {
+    margin-bottom: 4px;
+}
+
+.doc-content a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+.doc-requisites {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 8px;
+}
+
+.doc-requisites p {
+    margin-bottom: 4px;
+    font-size: 13px;
+}

@@ -30,7 +30,11 @@ const pages = {
     menu: document.getElementById('menu-page'),
     order: document.getElementById('order-page'),
     takeaway: document.getElementById('takeaway-page'),
-    cart: document.getElementById('cart-page')
+    cart: document.getElementById('cart-page'),
+    offer: document.getElementById('offer-page'),
+    product: document.getElementById('product-page'),
+    privacy: document.getElementById('privacy-page'),
+    paymentInfo: document.getElementById('payment-info-page')
 };
 
 function showPage(pageName) {
@@ -79,4 +83,32 @@ document.getElementById('cart-back').onclick = function() {
 document.getElementById('btn-cart').onclick = function() {
     showPage('cart');
     renderCart();
+};
+
+// Кнопки документов
+document.getElementById('btn-offer').onclick = function() {
+    showPage('offer');
+};
+document.getElementById('btn-product').onclick = function() {
+    showPage('product');
+};
+document.getElementById('btn-privacy').onclick = function() {
+    showPage('privacy');
+};
+document.getElementById('btn-payment-info').onclick = function() {
+    showPage('paymentInfo');
+};
+
+// Кнопки назад (документы)
+document.getElementById('offer-back').onclick = function() {
+    showPage('main');
+};
+document.getElementById('product-back').onclick = function() {
+    showPage('main');
+};
+document.getElementById('privacy-back').onclick = function() {
+    showPage('main');
+};
+document.getElementById('payment-info-back').onclick = function() {
+    showPage('main');
 };
