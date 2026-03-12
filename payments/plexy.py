@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import time
 
-API_KEY = "pr_aed2ba5872c5407f99da2947fbe1bbaf"
+API_KEY = "pr_c27c5c3a14ce42c294e113592a4784cd"
 BASE_URL = "https://api.plexypay.com/v1"
 
 # Продакшен
