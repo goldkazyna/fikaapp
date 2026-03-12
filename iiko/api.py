@@ -71,7 +71,7 @@ def add_payment(token, order_id, amount):
                 {
                     "paymentTypeId": CASH_PAYMENT,
                     "sum": amount,
-                    "paymentTypeKind": "Cash"
+                    "paymentTypeKind": "Card"
                 }
             ]
         }
