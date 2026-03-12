@@ -61,7 +61,7 @@ def get_order_by_table_with_retry(token, table_id, max_attempts=5, delay=2):
 
 def add_payment(token, order_id, amount):
     """Добавить оплату к заказу"""
-    requests.post(
+    response = requests.post(
         f"{IIKO_API_URL}/order/add_payments",
         headers={"Authorization": f"Bearer {token}"},
         json={
@@ -76,11 +76,12 @@ def add_payment(token, order_id, amount):
             ]
         }
     )
+    print(f"💳 iiko add_payment: {response.status_code} — {response.text[:500]}")
 
 
 def close_order(token, order_id):
     """Закрыть заказ"""
-    requests.post(
+    response = requests.post(
         f"{IIKO_API_URL}/order/close",
         headers={"Authorization": f"Bearer {token}"},
         json={
@@ -88,3 +89,4 @@ def close_order(token, order_id):
             "orderId": order_id
         }
     )
+    print(f"🔒 iiko close_order: {response.status_code} — {response.text[:500]}")
